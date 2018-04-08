@@ -26,14 +26,14 @@ class admin_plugin_toucher extends DokuWiki_Admin_Plugin {
     }
 
     function touchFiles() {
-        touch(DOKU_CONF."local.php"); // this is the core of this plugin
+        touch(DOKU_CONF.'local.php'); // this is the core of this plugin
     }
  
     public function handle() {
         global $INFO;
 
         if ($this->getConf('admin_only')) {
-            if (!$INFO[isadmin]) {
+            if (!$INFO['isadmin']) {
                 msg('Plugin toucher failed: you must be admin to touch configuration',-1);
                 return false;
             }
