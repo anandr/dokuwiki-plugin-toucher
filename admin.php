@@ -11,6 +11,12 @@ if (!defined('DOKU_INC')) die();
 
 class admin_plugin_toucher extends DokuWiki_Admin_Plugin
 {
+    public function getMenuIcon()
+    {
+        // use same icon of configration manager
+        return DOKU_PLUGIN.'config/admin.svg';
+    }
+
     public function getMenuSort()
     {
         return 13;
