@@ -6,5 +6,3 @@
  */
 
 $lang['admin_only'] = 'Allow toucher plugin only for admins (superusers)';
-
-//Setup VIM: ex: et ts=4 :

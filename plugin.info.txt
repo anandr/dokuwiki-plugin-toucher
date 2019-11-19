@@ -1,7 +1,7 @@
 base   toucher
 author Andriy Nych
 email  nych.andriy@gmail.com
-date   2012-09-16
+date   2019-11-19
 name   Toucher plugin
 desc   A plugin for touching configuration files without changing DokuWiki settings
 url    http://www.dokuwiki.org/plugin:toucher
